@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="lib1">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/javafx-sdk-23.0.1WINDOWS/lib" />
+      <root url="file://$PROJECT_DIR$/javafx-sdk-23.0.1WINDOWS/lib" />
+      <root url="file://$PROJECT_DIR$/javafx-sdk-23.0.1WINDOWS/lib" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://$PROJECT_DIR$/javafx-sdk-23.0.1WINDOWS/lib" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/javafx-sdk-23.0.1WINDOWS/lib" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/javafx-sdk-23.0.1WINDOWS/lib" recursive="false" />
+  </library>
+</component>
