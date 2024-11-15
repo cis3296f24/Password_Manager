@@ -21,7 +21,12 @@ Users will be able to create their own Password Manager accounts and will have a
 - Arvindh Velrajan
 - Jack Wylie
 
+# Login Screen Interface
 ![Login Screen Interface](Interface.png)
+
+# Create Account Screen Interface
+![Create Account Screen Interface](CreateAccount.png)
+
 # How to run (Works only on Windows)
 Instructions to run the Password Manager Application.   
 - Download the latest .jar file from the Release section on the right on GitHub. It will be labeled Password_Manager.jar file. 

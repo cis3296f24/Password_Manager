@@ -1,4 +1,4 @@
-title Scenes Sequence Diagram
+title User Interface Display Sequence Diagram
 actor User
 participant LoginScreen
 participant CreateAccount
@@ -11,7 +11,7 @@ activate CreateAccount
 activate Dashboard
 activate Settings
 
-User ->LoginScreen:Starts Application
+User ->LoginScreen:Intitial Scene
 User <-- LoginScreen: Displays LoginScreen Interface
 LoginScreen --> LoginScreen: Authentication Failed Result
 LoginScreen -> Dashboard:Authentication Passed
