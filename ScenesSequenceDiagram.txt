@@ -1,0 +1,32 @@
+title Scenes Sequence Diagram
+actor User
+participant LoginScreen
+participant CreateAccount
+participant Dashboard
+participant Settings
+
+activate User
+activate LoginScreen
+activate CreateAccount
+activate Dashboard
+activate Settings
+
+User ->LoginScreen:Starts Application
+User <-- LoginScreen: Displays LoginScreen Interface
+LoginScreen --> LoginScreen: Authentication Failed Result
+LoginScreen -> Dashboard:Authentication Passed
+
+LoginScreen -> CreateAccount: Clicks CreateAccountHyperLink
+LoginScreen <- CreateAccount: Clicks LoginScreen HyperLink
+
+CreateAccount --> CreateAccount: Account Creation Failed Result
+CreateAccount -> LoginScreen: Account Creation Passed
+
+CreateAccount --> User : Displays CreateAccount Interface
+
+
+Dashboard -> Settings: Clicks Settings Button
+Dashboard <- Settings: Clicks Dashboard Button
+
+Dashboard --> User: Displays Dashboard Interface 
+Settings --> User: Displays Settings Interface 

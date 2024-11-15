@@ -13,8 +13,6 @@ Users will be able to create their own Password Manager accounts and will have a
 # Tools Used
 - Java
 - JavaFx
-- mySQL
-- Kotlin
 
 # Members 
 - Dex Giglio
@@ -23,7 +21,7 @@ Users will be able to create their own Password Manager accounts and will have a
 - Arvindh Velrajan
 - Jack Wylie
 
-![This is a screenshot.](images.png)
+![Login Screen Interface](Interface.png)
 # How to run (Works only on Windows)
 Instructions to run the Password Manager Application.   
 - Download the latest .jar file from the Release section on the right on GitHub. It will be labeled Password_Manager.jar file. 
