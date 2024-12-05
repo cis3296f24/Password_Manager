@@ -1,0 +1,67 @@
+title User Interface Display Sequence Diagram
+
+actor User
+
+participant LoginScreen
+participant CreateAccount
+participant Dashboard
+participant Settings
+participant Generator
+participant StrengthChecker
+participant CreateCredential
+participant ViewCredential
+participant EditCredential
+
+activate User
+activate LoginScreen
+activate CreateAccount
+activate Dashboard
+activate Settings
+activate Generator
+activate StrengthChecker
+activate CreateCredential
+activate ViewCredential
+activate EditCredential
+
+User ->LoginScreen:Intitial Scene
+User <-- LoginScreen: Displays LoginScreen Interface
+LoginScreen --> LoginScreen: Authentication Failed Result
+LoginScreen -> Dashboard:Authentication Passed
+
+LoginScreen -> CreateAccount: Clicks CreateAccountHyperLink
+CreateAccount-->User:Displays CreateAccount Interface
+LoginScreen <- CreateAccount: Clicks LoginScreen HyperLink
+
+CreateAccount --> CreateAccount: Account Creation Failed Result
+CreateAccount -> LoginScreen: Account Creation Passed
+
+
+Dashboard --> User: Displays Dashboard Interface 
+Dashboard -> Settings: Clicks Settings Button
+Settings --> User: Displays Settings Interface
+Dashboard <- Settings: Clicks Dashboard Button
+
+
+Dashboard -> Generator: Click Generator Button
+
+Generator --> User:Displays Generator Interface
+Dashboard <- Generator: Click Dashboard Button
+
+Dashboard -> StrengthChecker: Click StrengthChecker Button
+
+StrengthChecker --> User:Displays StrengthChecker Interface
+Dashboard <- StrengthChecker:Click Dashboard Button
+
+Dashboard -> CreateCredential: Click CreateCredential Button
+
+CreateCredential --> User:Displays CreateCredential Interface
+Dashboard <- CreateCredential:Click Cancel Button
+Dashboard <- CreateCredential:Click Save Button
+
+Dashboard -> ViewCredential: Click Credential Item
+ViewCredential ->
+
+ViewCredential --> User:Displays ViewCredential Interface
+ViewCredential -> EditCredential: Click on Edit Button
+EditCredential --> User:Display EditCredential Interface
+EditCredential -> Dashboard: Click Save Button
