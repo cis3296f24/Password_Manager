@@ -8,7 +8,7 @@ Users will be able to create their own Password Manager accounts and will have a
 - [Tools Used](https://github.com/cis3296f24/Password_Manager?tab=readme-ov-file#tools-used)
 - [Members](https://github.com/cis3296f24/Password_Manager?tab=readme-ov-file#members)
 - [How to run](https://github.com/cis3296f24/Password_Manager?tab=readme-ov-file#how-to-run-works-only-on-windows)
-- [How to contribute](https://github.com/cis3296f24/Password_Manager?tab=readme-ov-file#how-to-contribute)
+- [How to build](https://github.com/cis3296f24/Password_Manager/blob/main/README.md#how-to-build-windows-and-macos)
 
 # Tools Used
 - Java
